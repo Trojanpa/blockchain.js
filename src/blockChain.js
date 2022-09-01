@@ -38,6 +38,8 @@ var addBlock = (newBlock, cb) => {
         });
       }
     });
+  } else {
+    console.log('区块不合法，不添加区块');
   }
 };
 
