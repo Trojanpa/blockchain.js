@@ -9,15 +9,15 @@
 随机数 nonce；
 挖出区块的矿机ip
 */
-function Block(index, previousHash, timestamp, data, hash,bits,nonce,mip) {
-        this.index = index;
-        this.previousHash = previousHash.toString();
-        this.timestamp = timestamp;
-        this.data = data;
-        this.hash = hash.toString();
-        this.bits = bits;
-        this.nonce = nonce;
-        this.minerip = mip;
+function Block(index, previousHash, timestamp, data, hash, bits, nonce, mip) {
+  this.index = index;
+  this.previousHash = previousHash.toString();
+  this.timestamp = timestamp;
+  this.data = data;
+  this.hash = hash.toString();
+  this.bits = bits;
+  this.nonce = nonce;
+  this.minerip = mip;
 }
 
 module.exports = Block;
